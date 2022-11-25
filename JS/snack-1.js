@@ -4,13 +4,15 @@
 
 let numbers = [];
 
-let inputNumber = parseInt(prompt("Inserisci un numero"));
 
-for (i>0; i < numbers.length; i++){
-    inputNumber == numbers[i];
+for (let i = 0; i < 6; i++){
+
+    let inputNumber = parseInt(prompt("Inserisci un numero"));
+
+    if (inputNumber % 2 == 1){
+        numbers.push(inputNumber);
+    }
+
 }
 
-if (inputNumber % 1){
-    numbers.push(inputNumber);
-    console.log(numbers);
-}
+console.log(numbers);
