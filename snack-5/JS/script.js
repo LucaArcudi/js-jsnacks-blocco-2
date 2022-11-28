@@ -20,6 +20,7 @@ while (guests.length < 10){
 
     let guest = names[randomName] + "" + lastnames[randomLastnames];
 
+    if (guests.indexOf(guest) === -1);
     guests.push(guest);
     
 
