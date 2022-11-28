@@ -7,6 +7,6 @@ while (i<1000){
     console.log(i);
 }
 
-for (let pw = 2; pw<1000; pw*=2;){
+for (let pw = 2; pw<1000; pw*=2){
     console.log(pw);
 }
